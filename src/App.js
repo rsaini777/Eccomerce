@@ -1,11 +1,12 @@
 import React from 'react';
 import AppRoutes from './routes/Routes';
+import Nav from './components/header/Nav';
 
 function App() {
   return (
     <div>
       <header>
-        <h1>React Redux Toolkit App</h1>
+       <Nav />
       </header>
       <main>
         <AppRoutes />
